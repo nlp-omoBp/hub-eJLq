@@ -29,7 +29,7 @@ model.fit(input_feature, dataset[1].values)
 # 初始化OpenAI客户端，用于调用通义千问API
 client = OpenAI(
     # 如果没有配置环境变量，可以用自己的百炼API Key替换下行内容：api_key="sk-xxx"
-    api_key="sk-b7c19957bdc149a0be2b6d8d2fcdf3a7",
+    api_key="sk-b7c19xxxxxxd8d2fcdf3a7",
     base_url="https://dashscope.aliyuncs.com/compatible-mode/v1",  # 阿里云DashScope API兼容模式的端点
 )
 
